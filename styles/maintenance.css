@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+h1, p{
+    font-family: Arial;
+    color: #EDEDED;
+    text-align: center;
+    margin: 2vh;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A1D24;
+}
+
+#maintenance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#maintenance-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
