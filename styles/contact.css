@@ -139,3 +139,70 @@ a:hover::before{
   background: #22C55E;
   border-radius: 5px;
 }   
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    #navbar {
+        height: auto;
+        padding: 4vw;
+        justify-content: space-between;
+    }
+
+    #name {
+        width: auto;
+        margin-left: 0;
+    }
+
+    #navbar-links {
+        display: none; /* Hide desktop links */
+    }
+
+    #menu {
+        width: auto;
+    }
+
+    #menu img {
+        width: 8vw;
+    }
+
+    /* HERO */
+    #hero {
+        padding: 8vw 2vw;
+        text-align: center;
+    }
+
+    #profile {
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+    /* CONTACT */
+    #contact {
+        height: auto;
+        padding: 6vw 0;
+    }
+
+    #contact-container {
+        width: 85vw;
+        height: auto;
+        padding: 6vw;
+        align-items: center;
+        text-align: center;
+    }
+}
