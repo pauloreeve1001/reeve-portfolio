@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensures padding and borders don't break layouts */
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#page{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1A1D24;
+    text-decoration: none;
+}
+
+.text{
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+#web-dev{
+    color: red;
+}
+
+.accent{
+    color: #22C55E;
+}
+
+/* NAVBAR */
+#navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+#name{
+     margin-right: 20vw;
+}
+
+#navbar-links{
+    flex: 2 1 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#menu img{
+    width: 40px;
+    filter: invert(1);
+    margin-left: 20vw;
+}
+
+hr{
+    margin: 0;
+}
+
+/* HERO */
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#games{
+    display: grid;
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+    place-items: center;
+}
+
+.game-container{
+    background-color: #242832;
+    width: 25vw;
+    border-radius: 5%;
+    border: solid 2px black;
+    padding: 2vw;
+}
+
+.rounded-img{
+    border-radius: 5%;
+}

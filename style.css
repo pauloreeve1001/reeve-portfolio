@@ -25,6 +25,10 @@ body{
     text-decoration: none;
 }
 
+#web-dev{
+    color: red;
+}
+
 .accent{
     color: #22C55E;
 }

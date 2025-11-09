@@ -1,5 +1,10 @@
 *{
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* Ensures padding and borders don't break layouts */
+}
+
+.center{
+    text-align: center;
 }
 
 body{
@@ -9,7 +14,7 @@ body{
 }
 
 #page{
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     background-color: #1A1D24;
     text-decoration: none;
@@ -18,6 +23,10 @@ body{
 .text{
     color: #EDEDED;
     text-decoration: none;
+}
+
+#web-dev{
+    color: red;
 }
 
 .accent{
@@ -29,31 +38,31 @@ body{
     height: 10vh;
     display: flex;
     align-items: center;
+    padding: 0 2vw;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 #name{
-    width: 28vw;
-    align-items: center;
-    margin-left: 2vw;
+     margin-right: 20vw;
 }
 
 #navbar-links{
-    width: 40vw;
+    flex: 2 1 300px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #menu{
-    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 #menu img{
-    width: 5vw;
+    width: 40px;
     filter: invert(1);
+    margin-left: 20vw;
 }
 
 hr{
